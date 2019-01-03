@@ -1,0 +1,7 @@
+%include "vm.inc"
+
+vmovi vr6, 0x64
+vmovi vr5, 0x32
+vadd vr5, vr6
+vmov vr0, vr5
+vend
